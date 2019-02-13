@@ -1,0 +1,33 @@
+.footer {
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+
+.list-inline {
+    display: inline-block;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.header {
+    display: inline-block;
+    position: absolute;
+}
+
+.color-list-inline {
+    color: #ffffff;
+}
+
+header {
+    text-decoration: none;
+    color: #ffffff;

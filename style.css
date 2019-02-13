@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700');
+
+/*-------------------------------------------------------Header------------------------------------------------*/
+
+.brand {
+    display: inline-block;
+    font-family: "Monoton", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
+}
+
+.navbar {
+    display: inline-block;
+    height: 100px;
+}
+
+.navitem a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+}
+
+/*-------------------------------------------------------Navigation------------------------------------------------*/
+.color-brand {
+    background-color: #a25d5d
+}
+
+.color-navbar {
+    background-color: #b57d7d;
+}
+
+
+/*-------------------------------------------------------Section------------------------------------------------*/
+
+/*-------------------------------------------------------Image Slideshow------------------------------------------------*/
+
+/*-------------------------------------------------------Footer------------------------------------------------*/
+
+/*-------------------------------------------------------Media Queries------------------------------------------------*/
