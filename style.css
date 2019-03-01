@@ -1,31 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Poiret:100,200,300,400,500|Limelight:100,200,300,400,500|Poiret+One:100,200,300,400,500,600,700,800,900');
 
-/*-------------------------------------------------------Header------------------------------------------------*/
 
-.brand {
-    display: inline-block;
-    font-family: "Monoton", cursive;
-    font-weight: 400;
-    font-size: 36px;
-    text-align: center;
-    color: #ffffff;
-    height: 100px;
-}
+/*-------------------------------------------------------Colors------------------------------------------------*/
 
-.navbar {
-    display: inline-block;
-    height: 100px;
-}
-
-.navitem a {
-    text-decoration: none;
-    font-family: cursive;
-    font-size: 18px;
-    color:#ffffff;
-    text-align: center;
-}
-
-/*-------------------------------------------------------Navigation------------------------------------------------*/
 .color-brand {
     background-color: #a25d5d
 }
@@ -34,11 +11,354 @@
     background-color: #b57d7d;
 }
 
+.color-footer {
+    background-color: #a25d5d
+}
 
-/*-------------------------------------------------------Section------------------------------------------------*/
+.section-content-homepage {
+    background-color: #E49E9E;
+}
+
+.section-content-tour {
+    background-color: #BDEFCF;
+}
+
+.section-content-album {
+    background-color: #BDEFCF;
+}
+
+/*-------------------------------------------------------Header------------------------------------------------*/
+
+header {
+    margin: 0 0 0 0;
+}
+
+#nav {
+    margin: 0;
+
+}
+
+#nav {
+    padding: 20px;
+}
+
+
+.brand {
+    font-family: "Monoton";
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    min-height: 100px;
+    padding-top: 15px;
+}
+
+.nav {
+    display: table;
+    min-height: 100px;
+    margin: 0 0 0 0;
+}
+
+.navitem a: {
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navitem span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Limelight";
+    color: #ffffff;
+}
+
+
+/*-------------------------------------------------------Homepage Section------------------------------------------------*/
+
+.image-banner {
+    padding: 0 0 0 0;
+}
+
+.image-banner section {
+    margin: 0 0 0 0;
+}
+
+.band-image-item {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.band-images {
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+.band-image-item {
+    margin: 0 0 0 0;
+    position: relative;
+    display: inline-block;
+    background-color: #e84610;
+}
+
+.band-image-item img {
+    overflow: hidden;
+    background-size: 100%;
+    background-position: center;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.timeline {
+    padding: 0 0 0 0;
+}
+
+.section-content-homepage {
+    margin-left: 0px;
+    padding-left: 0px;
+    min-height: 400px;
+}
 
 /*-------------------------------------------------------Image Slideshow------------------------------------------------*/
 
+/*-------------------------------------------------------Members Section--------------------------------------------------------*/
+
+.section-content-members {
+    min-height: 400px;
+    background-color: #F4E99E;
+}
+
+.supreme-members {
+    margin: 50px 100px 50px 100px;
+    display: flex;
+}
+
+.image-member {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.member-info {
+    font-size: 18px;
+    font-family: "Limelight";
+    padding-left: 50px;
+    color: #a25d5d;
+}
+
+.member-info p {
+    font-size: 18px;
+    font-family: "Poiret One"
+}
+
+/*-------------------------------------------------------Albums Section--------------------------------------------------------*/
+
+.album-cover {
+    display: inline-block;
+    position: relative;
+}
+
+.section-content-album {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.meet-the-supremes {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
+.meet-the-supremes:hover:after {
+    content: "Side one \A 1. Your Heart Belongs to Me \A 2. Who's Lovin' You \A 3. Baby Don't Go \A 4. Buttered Popcorn \A 5. I Want a Guy \A \A Side two \A 1. Let Me Go the Right Way \A 2. You Bring Back Memories \A 3. Time Changes Things \A 4. Play a Sad Song \A 5. Never Again \A 6. (He's) Seventeen";
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.supremes-a-go-go {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
+.supremes-a-go-go:hover:after {
+    content: "Side one \A 1. Love Is Like an Itching in My Heart \A 2. This Old Heart of Mine (Is Weak for You) \A 3. You Can't Hurry Love \A 4. Shake Me, Wake Me (When It's Over) \A 5. Baby I Need Your Loving \A 6. These Boots Are Made for Walkin' \A \A Side two \A 1. I Can't Help Myself (Sugar Pie Honey Bunch) \A 2. Get Ready \A 3. Put Yourself in My Place \A 4. Money (That's What I Want) \A 5. Come and Get These Memories \A 6. Hang On Sloopy";
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.the-supremes-sing-holland {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
+.the-supremes-sing-holland:hover:after {
+    content: "Side one \A 1. You Keep Me Hangin' On \A 2. You're Gone, But Always in My Heart \A 3. Love Is Here and Now You're Gone \A 4. Mother You, Smother You \A 5. I Guess I'll Always Love You \A 6. I'll Turn to Stone \A \A Side two \A 1. It's the Same Old Song \A 2. Going Down for the Third Time \A 3. Love is in Our Hearts \A 4. Remove This Doubt \A 5. There's No Stopping Us Now \A 6. (Love Is Like a) Heat Wave";
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.we-remember-sam-cooke {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
+.we-remember-sam-cooke:hover:after {
+    content: "Side One \A 1. You Send Me \A 2. Nothing Can Change This Love \A 3. Cupid \A 4. Chain Gang \A 5. Bring It on Home to Me \A 6. Only Sixteen \A \A Side Two \A 1. Havin' a Party \A 2. Shake \A 3. Wonderful World \A 4. A Change Is Gonna Come \A 5. (Ain't That) Good News";
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/*-------------------------------------------------------Tours--------------------------------------------------------*/
+
+.section-content-tour {
+    min-height: 400px;
+}
+
+.table-tour-dates {
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+table {
+    font-size: 18px;
+    font-family: "Poiret One";
+    color: #a25d5d;
+}
+
+th {
+    font-weight: bolder;
+}
+
+btn {
+    padding: 5px 5px;
+    background-color: #b57d7d;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: solid 1.5px;
+    border-color: #a25d5d;
+}
+
 /*-------------------------------------------------------Footer------------------------------------------------*/
+
+.footer {
+    height: 150px;
+}
+
+.footer-item {
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-item p {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poiret One";
+}
+
+.social-links {
+    font-family: "Limelight";
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.social-links li a i {
+    color: #ffffff;
+    padding-top: 0;
+}
+
+footer .subtitle {
+    font-size: 18px;
+    font-family: "Limelight";
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.privacy {
+    min-height: 800px;
+    background-color: #F4E99E;
+}
+
+.section-content-privacy {
+    padding: 100px 300px 1200px 300px;
+}
 
 /*-------------------------------------------------------Media Queries------------------------------------------------*/
