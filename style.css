@@ -27,6 +27,30 @@
     background-color: #BDEFCF;
 }
 
+.section-content-members {
+    background-color: #F4E99E;
+}
+
+.section-content-former-members {
+    background-color: #E49E9E;
+}
+
+.hits-side {
+    background-color: #F4E99E;
+}
+
+.hits-centre {
+    background-color: #E49E9E;
+}
+
+.section-content-privacy {
+    background-color: #F4E99E;
+}
+
+.section-content-contact {
+    background-color: #E49E9E;
+}
+
 /*-------------------------------------------------------Header------------------------------------------------*/
 
 header {
@@ -80,16 +104,12 @@ header {
 
 .image-banner {
     padding: 0 0 0 0;
-}
-
-.image-banner section {
     margin: 0 0 0 0;
 }
 
-.band-image-item {
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
+
+.image-banner section {
+    margin: 0 0 0 0;
 }
 
 .band-images {
@@ -99,38 +119,60 @@ header {
 
 .band-image-item {
     margin: 0 0 0 0;
+    padding-left: 0px;
+    padding-right: 0px;
     position: relative;
     display: inline-block;
-    background-color: #e84610;
 }
 
-.band-image-item img {
+.band-image {
     overflow: hidden;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     width: auto;
     max-width: 100%;
     height: auto;
     max-height: 100%;
-}
+    margin: 0 0 0 0;
+    padding-left: 0px;
+    padding-right: 0px;
 
-.timeline {
-    padding: 0 0 0 0;
 }
 
 .section-content-homepage {
-    margin-left: 0px;
-    padding-left: 0px;
-    min-height: 400px;
+    padding-bottom: 30px;
+    min-height: 500px;
 }
 
-/*-------------------------------------------------------Image Slideshow------------------------------------------------*/
+.intro-text p {
+    padding-top: 20px;
+    font-family: "Poiret One";
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.intro-text h3 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Limelight";
+    color: #ffffff;
+}
+
 
 /*-------------------------------------------------------Members Section--------------------------------------------------------*/
 
 .section-content-members {
     min-height: 400px;
-    background-color: #F4E99E;
+}
+
+.members-header {
+    padding-top: 30px;
+    font-family: "Limelight";
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #a25d5d;
 }
 
 .supreme-members {
@@ -157,6 +199,11 @@ header {
 }
 
 /*-------------------------------------------------------Albums Section--------------------------------------------------------*/
+.albums {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 0 0 0;
+}
 
 .album-cover {
     display: inline-block;
@@ -166,6 +213,9 @@ header {
 .section-content-album {
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 0 0 0;
 }
 
 
@@ -269,6 +319,64 @@ header {
     font-size: 16px;
 }
 
+/*-------------------------------------------------------Hits--------------------------------------------------------*/
+
+.section-content-hits {
+    display: inline-block;
+    position: relative;
+}
+
+.hits-side {
+    font-family: "Limelight";
+    color: #a25d5d;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+.hits-side h3 {
+    transform: rotate(-15deg);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.hits-centre {
+    font-family: "Poiret One";
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hits-left {
+    position: relative;
+}
+
+.hits-right {
+    position: relative;
+}
+
+.hits-centre h3 {
+    font-family: "Limelight";
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.hits-left h3 {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.hits-right h3 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.hits-centre video {
+    width: 320px;
+    height: 240px;
+}
+
 /*-------------------------------------------------------Tours--------------------------------------------------------*/
 
 .section-content-tour {
@@ -309,10 +417,46 @@ td {
     border-color: #a25d5d;
 }
 
+/*-------------------------------------------------------Contact------------------------------------------------*/
+
+.section-content-contact {
+    min-height: 700px;
+}
+
+.contact {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/*-------------------------------------------------------Privacy------------------------------------------------*/
+
+.section-content-privacy {
+    margin: 0 0 0 0;
+    padding: 100px 300px 100px 300px;
+}
+
+.section-content-privacy span {
+    font-family: "Limelight";
+    font-size: 24px;
+    color: #a25d5d;
+}
+
+.section-content-privacy li {
+    font-family: "Poiret One";
+    font-size: 16px;
+    color: #a25d5d;
+}
+
+.privacy {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /*-------------------------------------------------------Footer------------------------------------------------*/
 
 .footer {
-    height: 150px;
+    min-height: 150px;
 }
 
 .footer-item {
@@ -351,14 +495,5 @@ footer .subtitle {
 }
 
 
-
-.privacy {
-    min-height: 800px;
-    background-color: #F4E99E;
-}
-
-.section-content-privacy {
-    padding: 100px 300px 1200px 300px;
-}
 
 /*-------------------------------------------------------Media Queries------------------------------------------------*/

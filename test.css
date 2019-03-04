@@ -66,3 +66,25 @@ header {
     border-style: dashed;
     border-width: 10px;
     border-color: #000000;
+    
+    
+    .section-content-hits {
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 0 0 0;
+    min-height: 500px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.hits-column {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
+.hits-side {
+    
+}
