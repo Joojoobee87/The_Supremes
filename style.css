@@ -47,8 +47,12 @@
     background-color: #F4E99E;
 }
 
-.section-content-contact {
+.contact {
     background-color: #E49E9E;
+}
+
+.form-control {
+    background-color: #ffffff;
 }
 
 /*-------------------------------------------------------Header------------------------------------------------*/
@@ -199,6 +203,7 @@ header {
 }
 
 /*-------------------------------------------------------Albums Section--------------------------------------------------------*/
+
 .albums {
     padding-left: 0px;
     padding-right: 0px;
@@ -421,11 +426,31 @@ td {
 
 .section-content-contact {
     min-height: 700px;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.contact {
-    padding-left: 0px;
-    padding-right: 0px;
+label {
+    color: #ffffff;
+    font-family: "Limelight";
+    font-size: 18px;
+}
+
+#input-message {
+    min-height: 200px;
+}
+
+.marketing {
+    font-family: "Poiret One";
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #a25d5d;
+    border-color: none;
+    color: #ffffff;
+    width: 100px;
 }
 
 
