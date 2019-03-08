@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton:100,200,300,400,500,600,700|Poiret:100,200,300,400,500|Limelight:100,200,300,400,500|Poiret+One:100,200,300,400,500,600,700,800,900');
 
-
 /*-------------------------------------------------------Colors------------------------------------------------*/
 
 .color-brand {
@@ -43,7 +42,7 @@
     background-color: #E49E9E;
 }
 
-.section-content-privacy {
+.privacy {
     background-color: #F4E99E;
 }
 
@@ -63,13 +62,11 @@ header {
 
 #nav {
     margin: 0;
-
 }
 
 #nav {
     padding: 20px;
 }
-
 
 .brand {
     font-family: "Monoton";
@@ -103,14 +100,12 @@ header {
     color: #ffffff;
 }
 
-
 /*-------------------------------------------------------Homepage Section------------------------------------------------*/
 
 .image-banner {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
-
 
 .image-banner section {
     margin: 0 0 0 0;
@@ -140,7 +135,6 @@ header {
     margin: 0 0 0 0;
     padding-left: 0px;
     padding-right: 0px;
-
 }
 
 .section-content-homepage {
@@ -162,7 +156,6 @@ header {
     font-family: "Limelight";
     color: #ffffff;
 }
-
 
 /*-------------------------------------------------------Members Section--------------------------------------------------------*/
 
@@ -216,13 +209,9 @@ header {
 }
 
 .section-content-album {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 50px 0px 50px 0px;
     margin: 0 0 0 0;
 }
-
 
 .meet-the-supremes {
     display: inline-block;
@@ -235,6 +224,7 @@ header {
     white-space: pre;
     width: 400px;
     height: 400px;
+    background: grey;
     background: rgba(0, 0, 0, .5);
     border: 2px #a25d5d;
     position: absolute;
@@ -243,6 +233,7 @@ header {
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     text-align: left;
     color: white;
     padding: 12px;
@@ -260,6 +251,7 @@ header {
     white-space: pre;
     width: 400px;
     height: 400px;
+    background: grey;
     background: rgba(0, 0, 0, .5);
     border: 2px #a25d5d;
     position: absolute;
@@ -268,6 +260,7 @@ header {
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     text-align: left;
     color: white;
     padding: 12px;
@@ -285,6 +278,7 @@ header {
     white-space: pre;
     width: 400px;
     height: 400px;
+    background: grey;
     background: rgba(0, 0, 0, .5);
     border: 2px #a25d5d;
     position: absolute;
@@ -293,6 +287,7 @@ header {
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     text-align: left;
     color: white;
     padding: 12px;
@@ -310,6 +305,7 @@ header {
     white-space: pre;
     width: 400px;
     height: 400px;
+    background: grey;
     background: rgba(0, 0, 0, .5);
     border: 2px #a25d5d;
     position: absolute;
@@ -318,6 +314,7 @@ header {
     display: inline-block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     text-align: left;
     color: white;
     padding: 12px;
@@ -327,19 +324,31 @@ header {
 /*-------------------------------------------------------Hits--------------------------------------------------------*/
 
 .section-content-hits {
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 0 0 0;
+    min-height: 500px;
     display: inline-block;
     position: relative;
 }
 
+
+.hits-column {
+    display: inline-block;
+    position: relative;
+    padding: 0px;
+}
+
 .hits-side {
     font-family: "Limelight";
+    font-size: 24px;
     color: #a25d5d;
     padding-left: 20px;
     padding-right: 20px;
-    overflow: auto;
 }
 
-.hits-side h3 {
+.hits-side p {
     transform: rotate(-15deg);
     padding-left: 20px;
     padding-right: 10px;
@@ -349,7 +358,7 @@ header {
     font-family: "Poiret One";
     font-size: 18px;
     color: #ffffff;
-    padding-bottom: 100px;
+    padding: 30px 25px 100px 25px;
     position: relative;
 }
 
@@ -361,18 +370,20 @@ header {
     position: relative;
 }
 
-.hits-centre h3 {
+.hits-centre span {
+    font-size: 28px;
+    display: block;
     font-family: "Limelight";
     color: #ffffff;
     padding-top: 30px;
 }
 
-.hits-left h3 {
+.hits-left p {
     padding-top: 100px;
     padding-bottom: 200px;
 }
 
-.hits-right h3 {
+.hits-right p {
     padding-top: 200px;
     padding-bottom: 100px;
 }
@@ -437,7 +448,7 @@ label {
     font-size: 18px;
 }
 
-#input-message {
+input #textarea {
     min-height: 200px;
 }
 
@@ -448,7 +459,7 @@ label {
 
 .btn {
     background-color: #a25d5d;
-    border-color: none;
+    border-color: inherit;
     color: #ffffff;
     width: 100px;
 }
@@ -458,7 +469,8 @@ label {
 
 .section-content-privacy {
     margin: 0 0 0 0;
-    padding: 100px 300px 100px 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .section-content-privacy span {
@@ -467,10 +479,15 @@ label {
     color: #a25d5d;
 }
 
+.section-content-privacy ol {
+    padding-top: 20px;
+}
+
 .section-content-privacy li {
     font-family: "Poiret One";
     font-size: 16px;
     color: #a25d5d;
+    padding-bottom: 20px;
 }
 
 .privacy {
