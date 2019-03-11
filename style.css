@@ -22,7 +22,7 @@
     background-color: #BDEFCF;
 }
 
-.section-content-album {
+.albums {
     background-color: #BDEFCF;
 }
 
@@ -107,10 +107,6 @@ header {
     margin: 0 0 0 0;
 }
 
-.image-banner section {
-    margin: 0 0 0 0;
-}
-
 .band-images {
     margin: 0;
     padding: 0 0 0 0;
@@ -159,10 +155,6 @@ header {
 
 /*-------------------------------------------------------Members Section--------------------------------------------------------*/
 
-.section-content-members {
-    min-height: 400px;
-}
-
 .members-header {
     padding-top: 30px;
     font-family: "Limelight";
@@ -198,127 +190,51 @@ header {
 /*-------------------------------------------------------Albums Section--------------------------------------------------------*/
 
 .albums {
-    padding-left: 0px;
-    padding-right: 0px;
     margin: 0 0 0 0;
+    padding-top: 50px;
 }
 
 .album-cover {
     display: inline-block;
     position: relative;
+    padding: 0px 0px;
+    padding-bottom: 50px;
 }
 
-.section-content-album {
-    padding: 50px 0px 50px 0px;
-    margin: 0 0 0 0;
-}
-
-.meet-the-supremes {
+.album-cover:hover:after {
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: grey;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: inline-block;
-    position: relative;
-    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px 12px;
+    font-size: 16px;
 }
 
 .meet-the-supremes:hover:after {
     content: "Side one \A 1. Your Heart Belongs to Me \A 2. Who's Lovin' You \A 3. Baby Don't Go \A 4. Buttered Popcorn \A 5. I Want a Guy \A \A Side two \A 1. Let Me Go the Right Way \A 2. You Bring Back Memories \A 3. Time Changes Things \A 4. Play a Sad Song \A 5. Never Again \A 6. (He's) Seventeen";
-    white-space: pre;
-    width: 400px;
-    height: 400px;
-    background: grey;
-    background: rgba(0, 0, 0, .5);
-    border: 2px #a25d5d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: left;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-}
-
-.supremes-a-go-go {
-    display: inline-block;
-    position: relative;
-    padding: 0px;
 }
 
 .supremes-a-go-go:hover:after {
     content: "Side one \A 1. Love Is Like an Itching in My Heart \A 2. This Old Heart of Mine (Is Weak for You) \A 3. You Can't Hurry Love \A 4. Shake Me, Wake Me (When It's Over) \A 5. Baby I Need Your Loving \A 6. These Boots Are Made for Walkin' \A \A Side two \A 1. I Can't Help Myself (Sugar Pie Honey Bunch) \A 2. Get Ready \A 3. Put Yourself in My Place \A 4. Money (That's What I Want) \A 5. Come and Get These Memories \A 6. Hang On Sloopy";
-    white-space: pre;
-    width: 400px;
-    height: 400px;
-    background: grey;
-    background: rgba(0, 0, 0, .5);
-    border: 2px #a25d5d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: left;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-}
-
-.the-supremes-sing-holland {
-    display: inline-block;
-    position: relative;
-    padding: 0px;
 }
 
 .the-supremes-sing-holland:hover:after {
     content: "Side one \A 1. You Keep Me Hangin' On \A 2. You're Gone, But Always in My Heart \A 3. Love Is Here and Now You're Gone \A 4. Mother You, Smother You \A 5. I Guess I'll Always Love You \A 6. I'll Turn to Stone \A \A Side two \A 1. It's the Same Old Song \A 2. Going Down for the Third Time \A 3. Love is in Our Hearts \A 4. Remove This Doubt \A 5. There's No Stopping Us Now \A 6. (Love Is Like a) Heat Wave";
-    white-space: pre;
-    width: 400px;
-    height: 400px;
-    background: grey;
-    background: rgba(0, 0, 0, .5);
-    border: 2px #a25d5d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: left;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-}
-
-.we-remember-sam-cooke {
-    display: inline-block;
-    position: relative;
-    padding: 0px;
 }
 
 .we-remember-sam-cooke:hover:after {
     content: "Side One \A 1. You Send Me \A 2. Nothing Can Change This Love \A 3. Cupid \A 4. Chain Gang \A 5. Bring It on Home to Me \A 6. Only Sixteen \A \A Side Two \A 1. Havin' a Party \A 2. Shake \A 3. Wonderful World \A 4. A Change Is Gonna Come \A 5. (Ain't That) Good News";
-    white-space: pre;
-    width: 400px;
-    height: 400px;
-    background: grey;
-    background: rgba(0, 0, 0, .5);
-    border: 2px #a25d5d;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: left;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
 }
 
 /*-------------------------------------------------------Hits--------------------------------------------------------*/
@@ -332,7 +248,6 @@ header {
     display: inline-block;
     position: relative;
 }
-
 
 .hits-column {
     display: inline-block;
@@ -352,6 +267,16 @@ header {
     transform: rotate(-15deg);
     padding-left: 20px;
     padding-right: 10px;
+}
+
+.hits-left p {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.hits-right p {
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 .hits-centre {
@@ -378,22 +303,22 @@ header {
     padding-top: 30px;
 }
 
-.hits-left p {
-    padding-top: 100px;
-    padding-bottom: 200px;
-}
-
-.hits-right p {
-    padding-top: 200px;
-    padding-bottom: 100px;
-}
-
-.hits-centre video {
-    width: 320px;
-    height: 240px;
-}
-
 /*-------------------------------------------------------Tours--------------------------------------------------------*/
+
+.on-tour {
+    width: 100%;
+    padding-top: 30px;
+    font-family: "Monoton";
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    color: #a25d5d;
+}
+
+.on-tour p {
+    padding-top: 20px;
+font-size: 24px;
+}
 
 .section-content-tour {
     min-height: 400px;
@@ -426,6 +351,10 @@ btn {
     border-radius: 10px;
 }
 
+btn:hover {
+    background-color: #a25d5d;
+}
+
 th,
 td {
     padding: 15px;
@@ -436,7 +365,7 @@ td {
 /*-------------------------------------------------------Contact------------------------------------------------*/
 
 .section-content-contact {
-    min-height: 700px;
+    min-height: 550px;
     margin-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
@@ -458,12 +387,12 @@ input #textarea {
 }
 
 .btn {
+    font-family: "Limelight";
     background-color: #a25d5d;
     border-color: inherit;
     color: #ffffff;
     width: 100px;
 }
-
 
 /*-------------------------------------------------------Privacy------------------------------------------------*/
 
@@ -535,7 +464,3 @@ footer .subtitle {
     color: #ffffff;
     text-align: center;
 }
-
-
-
-/*-------------------------------------------------------Media Queries------------------------------------------------*/
