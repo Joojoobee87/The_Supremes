@@ -1,140 +1,199 @@
-.footer {
-    display: inline-block;
-    position: relative;
-    bottom: 0px;
-    height: 50px;
+
+@media (min-width:0px) and (max-width: 767px) {
+    .section-content-album {
+}}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 565px) {
+    .album-cover {
+        width: 250px;
+        max-height: 320px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1199px) {
+    .album-cover .album-cover:hover:after {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+        width: 250px;
+        max-height: 600px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1199px) {
+    .section-content-album {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .albums {
+        display: inline-block;
+        margin: 0px;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .section-content-album {
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .album-cover {
+        margin: 0px 0px 0px 0px;
+        padding: 50px 50px 50px 50px;
+        display: inline-block;
+        position: relative;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .album-cover .album-cover:hover:after {
+        display: inline-block;
+        position: relative;
+        width: 600px;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .album-image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+    .album-cover {
+        min-height: 250px;
+        max-height: 400px;
+        min-width: 250px;
+        max-width: 400px;
+        text-align: center;
+    }
+}
+
+
+.album-image {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+    .album-cover:after {
+        padding-top: 100%;
+    }
+}
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+    .album-cover {
+        width: 100%;
+    }
+}
+
+.section-content-album {
     width: 100%;
 }
 
-
-.list-inline {
-    display: inline-block;
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    padding: 0;
-}
-
-.header {
-    display: inline-block;
-    position: absolute;
-}
-
-.color-list-inline {
-    color: #ffffff;
-}
-
-header {
-    text-decoration: none;
-    color: #ffffff;
-}
-
- /*-----
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    height: 120px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
------*/
-
-.band-images {
-    margin: 5px 5px 5px 5px;
-    padding: 0 0 0 0;
-    border-style: dashed;
-    border-width: 10px;
-    border-color: #000000;
-    
-    
-    .section-content-hits {
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
+.albums {
     margin: 0 0 0 0;
-    min-height: 500px;
+    padding-top: 50px;
+}
+
+.album-cover {
     display: inline-block;
     position: relative;
+    padding: 0px 0px 50px 0px;
+    width: 100%;
+    height: 400px;
+}
+
+.album-image {
+    width: 100%;
+    height: 100%;
+}
+
+.album-cover:hover:after {
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: grey;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px 12px 0px 12px;
+    font-size: 16px;
+}
+
+.album-cover:hover:after {
+    white-space: pre;
+    background: grey;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px 12px 0px 12px;
+    font-size: 16px;
+}
+
+.album-cover:hover:after {
+    white-space: pre;
+    width: 400px;
+    height: 400px;
+    background: grey;
+    background: rgba(0, 0, 0, .5);
+    border: 2px #a25d5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    color: white;
+    padding: 12px 12px 0px 12px;
+    font-size: 16px;
 }
 
 
-.hits-column {
-    display: inline-block;
-    position: relative;
-    padding: 0px;
+.meet-the-supremes:hover:after {
+    content: "Side one \A 1. Your Heart Belongs to Me \A 2. Who's Lovin' You \A 3. Baby Don't Go \A 4. Buttered Popcorn \A 5. I Want a Guy \A \A Side two \A 1. Let Me Go the Right Way \A 2. You Bring Back Memories \A 3. Time Changes Things \A 4. Play a Sad Song \A 5. Never Again \A 6. (He's) Seventeen";
 }
 
-.hits-side {
-    
+.supremes-a-go-go:hover:after {
+    content: "Side one \A 1. Love Is Like an Itching in My Heart \A 2. This Old Heart of Mine (Is Weak for You) \A 3. You Can't Hurry Love \A 4. Shake Me, Wake Me (When It's Over) \A 5. Baby I Need Your Loving \A 6. These Boots Are Made for Walkin' \A \A Side two \A 1. I Can't Help Myself (Sugar Pie Honey Bunch) \A 2. Get Ready \A 3. Put Yourself in My Place \A 4. Money (That's What I Want) \A 5. Come and Get These Memories \A 6. Hang On Sloopy";
 }
 
-.hits-side {
-    font-family: "Limelight";
-    color: #a25d5d;
-    padding-left: 20px;
-    padding-right: 20px;
+.the-supremes-sing-holland:hover:after {
+    content: "Side one \A 1. You Keep Me Hangin' On \A 2. You're Gone, But Always in My Heart \A 3. Love Is Here and Now You're Gone \A 4. Mother You, Smother You \A 5. I Guess I'll Always Love You \A 6. I'll Turn to Stone \A \A Side two \A 1. It's the Same Old Song \A 2. Going Down for the Third Time \A 3. Love is in Our Hearts \A 4. Remove This Doubt \A 5. There's No Stopping Us Now \A 6. (Love Is Like a) Heat Wave";
 }
 
-.hits-side h3 {
-    transform: rotate(-15deg);
-    padding-left: 20px;
-    padding-right: 10px;
-}
-
-.hits-centre {
-    font-family: "Poiret One";
-    font-size: 18px;
-    color: #ffffff;
-    padding-bottom: 100px;
-    position: relative;
-}
-
-.hits-left {
-    position: relative;
-}
-
-.hits-right {
-    position: relative;
-}
-
-.hits-centre h3 {
-    font-family: "Limelight";
-    color: #ffffff;
-    padding-top: 30px;
-}
-
-.hits-left h3 {
-    padding-top: 100px;
-    padding-bottom: 200px;
-}
-
-.hits-right h3 {
-    padding-top: 200px;
-    padding-bottom: 100px;
-}
-
-.hits-centre video {
-    width: 320px;
-    height: 240px;
+.we-remember-sam-cooke:hover:after {
+    content: "Side One \A 1. You Send Me \A 2. Nothing Can Change This Love \A 3. Cupid \A 4. Chain Gang \A 5. Bring It on Home to Me \A 6. Only Sixteen \A \A Side Two \A 1. Havin' a Party \A 2. Shake \A 3. Wonderful World \A 4. A Change Is Gonna Come \A 5. (Ain't That) Good News";
 }
