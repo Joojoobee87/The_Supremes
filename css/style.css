@@ -258,9 +258,15 @@ header {
     text-align: center;
 }
 
+.hits {
+    padding: 0px;
+}
+
 #hits {
     display: flex;
-}
+    padding: 0px;
+    margin: 0px;
+    }
 
 .section-content-hits {
     padding-bottom: 30px;
@@ -293,13 +299,13 @@ header {
 }
 
 .hits-left p {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 200px;
 }
 
 .hits-right p {
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .hits-centre {
