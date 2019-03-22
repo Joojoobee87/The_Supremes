@@ -60,6 +60,10 @@ header {
     margin: 0 0 0 0;
 }
 
+.header-bar {
+    padding: 0px 0px 0px 0px;
+}
+
 .header {
     display: inline-block;
     width: 100%;
@@ -220,7 +224,7 @@ header {
     white-space: pre;
     width: 400px;
     height: 400px;
-    background: rgb(128,128,128);
+    background: rgb(128, 128, 128);
     background: rgba(0, 0, 0, .5);
     border: 2px #a25d5d;
     position: absolute;
@@ -259,6 +263,8 @@ header {
 }
 
 .hits {
+    position: relative;
+    display: inline-block;
     padding: 0px;
 }
 
@@ -266,7 +272,7 @@ header {
     display: flex;
     padding: 0px;
     margin: 0px;
-    }
+}
 
 .section-content-hits {
     padding-bottom: 30px;
@@ -548,17 +554,10 @@ footer .subtitle {
 
 /*-------------Hits-----------*/
 
-@media (max-width: 600px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
     .video {
         height: 240px;
         width: 360px;
-    }
-}
-
-@media (max-width: 767px) {
-    .video {
-        height: 280px;
-        width: 400px;
     }
 }
 
@@ -569,26 +568,21 @@ footer .subtitle {
     }
 }
 
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+    .hits-centre {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
 @media (max-width: 991px) {
     .hits-centre {
         padding-left: 50px;
         padding-right: 50px;
     }
 }
-
-/*
-  // Extra small screen / phone
-  xs: 0,
-  // Small screen / phone
-  sm: 576px,
-  // Medium screen / tablet
-  md: 768px,
-  // Large screen / desktop
-  lg: 992px,
-  // Extra large screen / wide desktop
-  xl: 1200px
-);
-*/
 
 /*-----Contact---------*/
 
