@@ -220,7 +220,7 @@ header {
     white-space: pre;
     width: 400px;
     height: 400px;
-    background: grey;
+    background: rgb(128,128,128);
     background: rgba(0, 0, 0, .5);
     border: 2px #a25d5d;
     position: absolute;
