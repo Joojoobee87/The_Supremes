@@ -12,6 +12,7 @@ The following were listed as main requirements for the site:
 <ul><li>Fans as the primary target audience
 <li>Visual and audio clips from the groups back catalogue
 <li>New material as it becomes available
+</ul>
 
 In terms of the US design, the following user stories are pertinent:
 <ul><li>As a user, I want to find out more about the group. I want pictures and summary details in order to digest quickly before continuing my navigation around the site.
@@ -23,6 +24,7 @@ In terms of the US design, the following user stories are pertinent:
 <li>As a band member, I want to publicise my social media platforms so that I can grow my fan base and inspire people through music
 <li>As a band member, I want event managers/marketers/organisers to be able to get in contact to enquire about booking events
 <li>As a band member, I want fans to know about my tour in order to sell tickets.
+</ul>
 
 <h2>Features</h2>
 
@@ -70,12 +72,12 @@ The following technologies were used throughout the design, build and implementa
 
 <h3>Balsamiq</h3>
 https://balsamiq.com/wireframes/
-Allows designers and developers to sketch out designs and collaborate on projects of all sizes. The software allows the project designers and developers to focus on the ‘Skeleton’ phase of the User Experience Design process and not become distracted by the finer details covered on the Surface Plane. The Balsamiq wireframes created for this project can be found in the wireframes folder here:
-https://github.com/Joojoobee87/The_Supremes
+<p>Allows designers and developers to sketch out designs and collaborate on projects of all sizes. The software allows the project designers and developers to focus on the ‘Skeleton’ phase of the User Experience Design process and not become distracted by the finer details covered on the Surface Plane. The Balsamiq wireframes created for this project can be found in the wireframes folder here:
+https://github.com/Joojoobee87/The_Supremes</p>
 
 <h3>Cloud9</h3>
 https://c9.io/
-Cloud9 is a cloud-based integrated development environment (IDE) which was used to write, run, and debug the code for this project.
+<p>Cloud9 is a cloud-based integrated development environment (IDE) which was used to write, run, and debug the code for this project.</p>
 
 <h3>HTML5</h3>
 HTML5 is the coding language used for the basic structure of the website, defining the elements, attributes and behaviours of the web pages.
@@ -104,55 +106,46 @@ Google Chrome Developer tools have been utilised throughout to ensure the respon
 <h3>Responsive design:</h3>
 
 Google Chrome and Safari Developer tools:
-> Responsive feature on developer tools to check the performance and display when viewport was resized to: Responsive; Pixel; Pixel 2 XL; Galaxy S5; iPhone 5/SE; iPhone 6/7/8; iPhone 6/7/8/plus; iPhone X; iPad; iPad Pro
-
-> Website viewed and tested in various browsers: Safari, Google Chrome, Internet Explorer, Firefox
-
-> Website tested on the following devices: Samsung Galaxy S8; Samsung Galaxy S7, Apple iPad, Apple MacBook Pro, HP laptop, Dell laptop, Apple iPhone
-
+<ul><li>Responsive feature on developer tools to check the performance and display when viewport was resized to: Responsive; Pixel; Pixel 2 XL; Galaxy S5; iPhone 5/SE; iPhone 6/7/8; iPhone 6/7/8/plus; iPhone X; iPad; iPad Pro
+<li>Website viewed and tested in various browsers: Safari, Google Chrome, Internet Explorer, Firefox
+<li>Website tested on the following devices: Samsung Galaxy S8; Samsung Galaxy S7, Apple iPad, Apple MacBook Pro, HP laptop, Dell laptop, Apple iPhone
+</ul>
 <h3>User Interaction</h3>
 
 The following has been tested and on pages within the project:
-> The Supremes brand links to the homepage on all pages
-> Navigation bar links take the user to the correct pages
-> Footer links take the user to the correct pages
-> Social Media links take the user to the relevant page on each social media application
+<ul><li>The Supremes brand links to the homepage on all pages
+<li>Navigation bar links take the user to the correct pages
+<li>Footer links take the user to the correct pages
+<li>Social Media links take the user to the relevant page on each social media application
 
 Albums page:
-> Each album cover image displays consistently across all devices
-> Each album cover displays track listing on hover
-> Each album cover takes the user to the relevant page on Spotify
-
+<ul><li>Each album cover image displays consistently across all devices
+<li>Each album cover displays track listing on hover
+<li>Each album cover takes the user to the relevant page on Spotify
+</ul>
 Hits:
-> Lyrics side columns are hidden on smaller devices
-> Each embedded YouTube video plays and pauses
-> Each embedded YouTube video displays sizing consistently
-> Played external videos on different browsers (Safari, Chrome, IE, Firefox)
-
+<ul><li>Lyrics side columns are hidden on smaller devices
+<li>Each embedded YouTube video plays and pauses
+<li>Each embedded YouTube video displays sizing consistently
+<li>Played external videos on different browsers (Safari, Chrome, IE, Firefox)
+</ul>
 Contact: 
-> Tested forms fields to ensure correct formatting according to the elements attribute
-	> Email field only allows entries with @ symbol
-NB: Form is display only and cannot be submitted yet
+<ul><li>Tested forms fields to ensure correct formatting according to the elements attribute
+<li>Email field only allows entries with @ symbol (NB: Form is display only and cannot be submitted yet)
+</ul>
 
 <h3>Issues/Fixes:</h3>
-> Responsive columns on Hits page
-	> Issue with the side and central columns not aligning and the bottom of the row container
-	> Fixed by applying the following to the ID attribute:
-		#hits {
-  			display: flex;
-				}
+<ul><li>Responsive columns on Hits page
+<li>Issue with the side and central columns not aligning and the bottom of the row container
+<li>Fixed by applying the following to the ID attribute: #hits { display: flex;}
 
-> rgba CSS3 styling did not work on certain devices, specifically Dell laptop. 
-	> All browsers except IE8 and older versions can rendering RGBa.
-	> A fallback color of grey was defined for the album, as below:
-		.album-cover:hover:after {
-			background: rgb(128,128,128);
-			background: rgba(0, 0, 0, .5);
-				}
+<li>rgba CSS3 styling did not work on certain devices, specifically Dell laptop. All browsers except IE8 and older versions can render RGBa.
+<li>A fallback color of grey was defined for the album, as below:.album-cover:hover:after {background: rgb(128,128,128); background: rgba(0, 0, 0, .5);}
 
 User testing:
-
-> 
+<ul><li>
+<li>
+<li>
 
 <h2>Deployment</h2>
 
@@ -167,12 +160,12 @@ https://joojoobee87.github.io/The_Supremes/
 <h2>Credits</h2>
 
 Wikipedia was used to obtain information for the homepage, members, and hits and the text has been condensed and paraphrased as appropriate for the website.
-https://en.wikipedia.org/wiki/The_Supremes
-https://en.wikipedia.org/wiki/Diana_Ross
-https://en.wikipedia.org/wiki/Florence_Ballard
-https://en.wikipedia.org/wiki/Mary_Wilson_(singer)
-https://en.wikipedia.org/wiki/Cindy_Birdsong
-https://en.wikipedia.org/wiki/Barbara_Martin_(singer)
+<p>https://en.wikipedia.org/wiki/The_Supremes
+<p>https://en.wikipedia.org/wiki/Diana_Ross
+<p>https://en.wikipedia.org/wiki/Florence_Ballard
+<p>https://en.wikipedia.org/wiki/Mary_Wilson_(singer)
+<p>https://en.wikipedia.org/wiki/Cindy_Birdsong
+<p>https://en.wikipedia.org/wiki/Barbara_Martin_(singer)
 
 Videos on the Hits page are sourced from YouTube, the url links embedded within the page.
 
