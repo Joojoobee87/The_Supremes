@@ -117,18 +117,21 @@ The following has been tested and on pages within the project:
 <li>Navigation bar links take the user to the correct pages
 <li>Footer links take the user to the correct pages
 <li>Social Media links take the user to the relevant page on each social media application
+</ul>
 
 Albums page:
 <ul><li>Each album cover image displays consistently across all devices
 <li>Each album cover displays track listing on hover
 <li>Each album cover takes the user to the relevant page on Spotify
 </ul>
+
 Hits:
 <ul><li>Lyrics side columns are hidden on smaller devices
 <li>Each embedded YouTube video plays and pauses
 <li>Each embedded YouTube video displays sizing consistently
 <li>Played external videos on different browsers (Safari, Chrome, IE, Firefox)
 </ul>
+
 Contact: 
 <ul><li>Tested forms fields to ensure correct formatting according to the elements attribute
 <li>Email field only allows entries with @ symbol (NB: Form is display only and cannot be submitted yet)
@@ -141,12 +144,12 @@ Contact:
 
 <li>rgba CSS3 styling did not work on certain devices, specifically Dell laptop. All browsers except IE8 and older versions can render RGBa.
 <li>A fallback color of grey was defined for the album, as below:.album-cover:hover:after {background: rgb(128,128,128); background: rgba(0, 0, 0, .5);}
-
+</ul>
 User testing:
 <ul><li>
 <li>
 <li>
-
+</ul>
 <h2>Deployment</h2>
 
 Cloud9 IDE was used to build the HTML5 and CSS3 code. Files were added, committed and pushed to the remote GitHub repository periodically throughout the build. Test.html and Test.css files were utilised to test some coding prior to building in the main html pages. Bootstrap coding was used and referred back to, to provide clarification on the function of the coding and to ensure that coding was not duplicated in the style.css file.
