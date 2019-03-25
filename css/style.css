@@ -67,7 +67,7 @@ header {
 }
 
 .header {
-    display: inline-block;
+    display: block;
     width: 100%;
     min-height: 100px;
     margin: 0px 0px 0px 0px;
@@ -75,12 +75,8 @@ header {
 }
 
 #nav {
-    margin: 0;
-}
-
-#nav {
     padding: 20px 20px 0px 20px;
-    
+    margin: 0;
 }
 
 .brand {
@@ -268,7 +264,7 @@ header {
 
 .hits {
     position: relative;
-    display: inline-block;
+    display: block;
     padding: 0px;
 }
 
@@ -380,14 +376,23 @@ table {
     color: #a25d5d;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 th {
     font-weight: bolder;
 }
 
-btn {
-    padding: 5px 5px;
-    background-color: #b57d7d;
+a {
+    text-decoration: none;
     color: #ffffff;
+}
+
+btn {
+    padding: 8px 8px;
+    background-color: #b57d7d;
     border-radius: 10px;
 }
 
@@ -491,6 +496,12 @@ input #textarea {
     font-family: "Poiret One";
 }
 
+.footer-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poiret One";
+}
+
 .social-links {
     font-family: "Limelight";
     font-weight: 400;
@@ -567,10 +578,17 @@ footer .subtitle {
 
 /*-------------Hits-----------*/
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 575px) {
     .video {
-        height: 240px;
-        width: 360px;
+        height: 150px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 767px) {
+    .video {
+        height: 210px;
+        width: 280px;
     }
 }
 
@@ -606,7 +624,7 @@ footer .subtitle {
 
 /*-----Contact---------*/
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 576px) {
     .section-content-contact {
         padding-left: 30px;
         padding-right: 30px;
@@ -615,9 +633,24 @@ footer .subtitle {
 
 /*-----Albums---------*/
 
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+    .albums {
+        max-width: 400px;
+        padding: 0px;
+    }
+}
+
 @media only screen and (min-device-width: 569px) and (max-device-width: 991px) {
     .albums {
         max-width: 600px;
+    }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+    .section-content-album {
+        text-align: center;
+        margin: auto;
+        padding-top: 20px;
     }
 }
 
@@ -634,24 +667,9 @@ footer .subtitle {
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
-    .albums {
-        max-width: 400px;
-        padding: 0px;
-    }
-}
-
-@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
-    .section-content-album {
-        text-align: center;
-        margin: auto;
-        padding-top: 20px;
-    }
-}
-
-@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
     .album-cover {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 280px;
+        max-height: 280px;
         margin: 0px;
         padding-bottom: 20px;
     }
@@ -659,8 +677,16 @@ footer .subtitle {
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
     .album-image {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 280px;
+        max-height: 280px;
         padding-bottom: 20px;
+    }
+}
+
+/*-------------Tour-----------*/
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
+    table {
+        font-size: 14px;
     }
 }
