@@ -69,6 +69,7 @@ header {
 .header {
     display: inline-block;
     width: 100%;
+    min-height: 100px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
@@ -78,7 +79,8 @@ header {
 }
 
 #nav {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
+    
 }
 
 .brand {
@@ -99,7 +101,7 @@ header {
     padding-right: 0px;
 }
 
-.navitem a: {
+.navitem a {
     width: 100%;
     padding: 30px 30px 30px 30px;
     text-decoration: none;
@@ -572,10 +574,17 @@ footer .subtitle {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
     .video {
         height: 280px;
         width: 400px;
+    }
+}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width: 1800px) {
+    .video {
+        height: 315px;
+        width: 560px;
     }
 }
 
