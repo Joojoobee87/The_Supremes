@@ -9,20 +9,20 @@ The Supremes are a 1960s Soul and Motown group who’ve had profound success ove
 The primary audience is The Supremes fan base across the globe. The group also wanted to attract the interest of younger audiences and inspire the next generation of budding Soul stars.
 
 The following were listed as main requirements for the site:
-> Fans as the primary target audience
-> Visual and audio clips from the groups back catalogue
-> New material as it becomes available
+<ul><li>Fans as the primary target audience
+<li>Visual and audio clips from the groups back catalogue
+<li>New material as it becomes available
 
 In terms of the US design, the following user stories are pertinent:
-> As a user, I want to find out more about the group. I want pictures and summary details in order to digest quickly before continuing my navigation around the site.
-> As a user, I want to know more about the members of the group including images and information about each band member.
-> As a user, I want to experience a taste of The Supremes in action utilising my visual and audio senses
-> As a user, I want to be able to find out more about the band and follow them via social media platforms
-> As a user, I want to find out about when and where the band are touring/performing so that I can see them in action
-> As an event manager/marketer/organiser, I want to be able to get in contact to find out about booking events
-> As a band member, I want to publicise my social media platforms so that I can grow my fan base and inspire people through music
-> As a band member, I want event managers/marketers/organisers to be able to get in contact to enquire about booking events
-> As a band member, I want fans to know about my tour in order to sell tickets.
+<ul><li>As a user, I want to find out more about the group. I want pictures and summary details in order to digest quickly before continuing my navigation around the site.
+<li>As a user, I want to know more about the members of the group including images and information about each band member.
+<li>As a user, I want to experience a taste of The Supremes in action utilising my visual and audio senses
+<li>As a user, I want to be able to find out more about the band and follow them via social media platforms
+<li>As a user, I want to find out about when and where the band are touring/performing so that I can see them in action
+<li>As an event manager/marketer/organiser, I want to be able to get in contact to find out about booking events
+<li>As a band member, I want to publicise my social media platforms so that I can grow my fan base and inspire people through music
+<li>As a band member, I want event managers/marketers/organisers to be able to get in contact to enquire about booking events
+<li>As a band member, I want fans to know about my tour in order to sell tickets.
 
 <h2>Features</h2>
 
