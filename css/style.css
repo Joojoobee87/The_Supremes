@@ -56,6 +56,15 @@
 
 /*-------------------------------------------------------Header------------------------------------------------*/
 
+.audio {
+    padding-bottom: 25px;
+}
+
+.audio-text {
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
 header {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -534,6 +543,24 @@ footer .subtitle {
     }
 }
 
+/*-------------Homepage-----------*/
+
+@media only screen and (max-width: 767px) {
+    .intro-text {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-text {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 25px;
+    }
+}
+
 /*-------------Members-----------*/
 
 @media only screen and (max-width: 767px) {
@@ -687,6 +714,6 @@ footer .subtitle {
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 568px) {
     table {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
