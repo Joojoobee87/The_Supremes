@@ -39,9 +39,7 @@ The navigation bar has a responsive design and is styled consistently throughout
 The footer bar also has a responsive design and is styled to mirror the navigation bar providing users with clear differentiation between the different sections on the page. The footer contains Bootstrap styled social media links which take users directly to the relevant page on that platform
 
 <h3>Feature 3: The Supremes - homepage</h3>
-The landing page has been designed to showcase some of the most iconic images of The Supremes across the top row of the section. 
-Audio clip…..
-A summary of the groups history follows but kept brief to ensure that user interest is maintained and they digest some information before continuing navigation through the site.
+The landing page has been designed to showcase some of the most iconic images of The Supremes across the top row of the section. A summary of the groups history follows but kept brief to ensure that user interest is maintained and they digest some information before continuing navigation through the site. An audio link was added to encourage users to listen to one of the groups most iconic songs.
 
 <h3>Feature 4: Members</h3>
 The Members page gives the user information about who the current band members are including an image and short summary about the person. The responsive design shows the text beneath the image for smaller devices. The page is split into two sections with current band members at the top and a subsequent section giving information about previous band members.
@@ -146,13 +144,15 @@ Contact:
 <li>A fallback color of grey was defined for the album, as below:.album-cover:hover:after {background: rgb(128,128,128); background: rgba(0, 0, 0, .5);}
 </ul>
 User testing:
-<ul><li>
-<li>
-<li>
+<ul><li>The URL was shared with users to test that the pages rendered correctly on different devices. All feedback was gathered and corrections made including white space down right side on privacy page, layout of video iframes on Hits page.
+<li>Navigations links, footer links, social media links and tour page links were tested across all pages to ensure they linked to relevant site
 </ul>
 <h2>Deployment</h2>
 
-Cloud9 IDE was used to build the HTML5 and CSS3 code. Files were added, committed and pushed to the remote GitHub repository periodically throughout the build. Test.html and Test.css files were utilised to test some coding prior to building in the main html pages. Bootstrap coding was used and referred back to, to provide clarification on the function of the coding and to ensure that coding was not duplicated in the style.css file.
+Cloud9 IDE was used to build the HTML5 and CSS3 code. Files were added, committed and pushed to the remote GitHub repository periodically throughout the build. Test.html and Test.css files were utilised to test some coding prior to building in the main html pages. Bootstrap coding was used and referred back to, to provide clarification on the function of the coding and to ensure that coding was not duplicated in the style.css file. All html and css files were validated using the following links and corrected as necessary:
+
+<p>https://validator.w3.org/#validate_by_input
+<p>https://jigsaw.w3.org/css-validator/#validate_by_input
 
 All files used in the project can be found on the GitHub repository page below:
 https://github.com/Joojoobee87/The_Supremes
