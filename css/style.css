@@ -214,6 +214,7 @@ header {
 }
 
 .section-content-album {
+    text-align: center;
     width: 100%;
     margin: 0px;
 }
@@ -665,9 +666,11 @@ footer .subtitle {
     }
 }
 
-@media only screen and (min-device-width: 569px) and (max-device-width: 991px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 991px) {
     .albums {
         max-width: 600px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
 
