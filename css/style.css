@@ -486,6 +486,13 @@ input #textarea {
     padding-right: 0px;
 }
 
+.privacy-policy {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Limelight";
+    color: #a25d5d;
+}
+
 /*-------------------------------------------------------Footer------------------------------------------------*/
 
 .footer {
