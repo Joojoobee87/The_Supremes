@@ -139,7 +139,6 @@ header {
 
 .band-image {
     overflow: hidden;
-    background-size: cover;
     background-position: center;
     width: auto;
     max-width: 100%;
@@ -398,7 +397,6 @@ a {
 .button {
     padding: 8px 8px;
     background-color: #b57d7d;
-    border-color: #b57d7d;
     border-radius: 15px;
 }
 
