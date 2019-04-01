@@ -60,11 +60,6 @@
     padding-bottom: 25px;
 }
 
-.audio-text {
-    padding-bottom: 30px;
-    text-align: justify;
-}
-
 header {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -399,14 +394,17 @@ a {
     color: #ffffff;
 }
 
-btn {
+.button {
     padding: 8px 8px;
     background-color: #b57d7d;
-    border-radius: 10px;
+    border-color: #b57d7d;
+    border-radius: 15px;
 }
 
-btn:hover {
+.button:hover {
     background-color: #a25d5d;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 th,
