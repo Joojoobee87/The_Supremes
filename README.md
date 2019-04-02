@@ -71,7 +71,7 @@ The following technologies were used throughout the design, build and implementa
 <h3>Balsamiq</h3>
 https://balsamiq.com/wireframes/
 <p>Allows designers and developers to sketch out designs and collaborate on projects of all sizes. The software allows the project designers and developers to focus on the ‘Skeleton’ phase of the User Experience Design process and not become distracted by the finer details covered on the Surface Plane. The Balsamiq wireframes created for this project can be found in the wireframes folder here:
-https://github.com/Joojoobee87/The_Supremes/wireframes</p>
+https://github.com/Joojoobee87/The_Supremes/wireframes/</p>
 
 <h3>Cloud9</h3>
 https://c9.io/
