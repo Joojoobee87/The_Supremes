@@ -264,6 +264,9 @@ header {
 
 .video {
     text-align: center;
+    width: 560px;
+    height: 315px;
+    max-width: 100%;
 }
 
 .hits {
@@ -577,15 +580,10 @@ footer .subtitle {
         display: block;
         width: 80%;
         text-align: center;
-    }
-}
-
-@media (max-width: 767px) {
-    .supreme-members {
-        display: block;
         margin: auto;
         padding: 0px;
-        text-align: center;
+
+
     }
 }
 
@@ -616,36 +614,8 @@ footer .subtitle {
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 575px) {
     .video {
-        height: 150px;
-        width: 200px;
-    }
-}
-
-@media only screen and (min-device-width: 576px) and (max-device-width: 767px) {
-    .video {
         height: 210px;
         width: 280px;
-    }
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .video {
-        height: 315px;
-        width: 560px;
-    }
-}
-
-@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
-    .video {
-        height: 280px;
-        width: 400px;
-    }
-}
-
-@media only screen and (min-device-width: 1201px) {
-    .video {
-        height: 315px;
-        width: 560px;
     }
 }
 
