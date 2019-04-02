@@ -14,7 +14,7 @@ The following were listed as main requirements for the site:
 <li>New material as it becomes available
 </ul>
 
-In terms of the US design, the following user stories are pertinent:
+In terms of the UX design, the following user stories are pertinent:
 <ul><li>As a user, I want to find out more about the group. I want pictures and summary details in order to digest quickly before continuing my navigation around the site.
 <li>As a user, I want to know more about the members of the group including images and information about each band member.
 <li>As a user, I want to experience a taste of The Supremes in action utilising my visual and audio senses
@@ -71,7 +71,7 @@ The following technologies were used throughout the design, build and implementa
 <h3>Balsamiq</h3>
 https://balsamiq.com/wireframes/
 <p>Allows designers and developers to sketch out designs and collaborate on projects of all sizes. The software allows the project designers and developers to focus on the ‘Skeleton’ phase of the User Experience Design process and not become distracted by the finer details covered on the Surface Plane. The Balsamiq wireframes created for this project can be found in the wireframes folder here:
-https://github.com/Joojoobee87/The_Supremes</p>
+https://github.com/Joojoobee87/The_Supremes/wireframes</p>
 
 <h3>Cloud9</h3>
 https://c9.io/
